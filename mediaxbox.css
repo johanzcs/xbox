@@ -1,0 +1,89 @@
+/* Cambios de color y ajustes para pantallas pequeñas */
+@media (max-width: 980px) {
+    body {
+        background-color: #06bd2d;
+        color: #000000;
+    }
+    
+
+    header {
+        background-color: #10b10b;
+    }
+
+    .video-fondo {
+        position: relative;
+        width: 90%; /* Asegura que el video ocupe el ancho completo */
+        height: 90vh; /* Ocupa toda la altura de la pantalla */
+        overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+        z-index: 1; /* Video detrás del contenido */
+    }
+    
+    iframe {
+        position: relative;
+        margin-top: 60px;
+        left: 0;
+        width: 80%; /* El video ocupa todo el ancho del contenedor */
+        height: 60%; /* El video ocupa toda la altura del contenedor */
+        border: none;
+        object-fit: cover; /* El video cubre el área completa sin deformarse */
+        pointer-events: none; /* Evita la interacción con el video */
+        
+    }
+
+    .descripcion {
+        color: #000000;
+    }
+
+    .botones button {
+        border: 7px solid #a54606;
+        background-color: #9ab309;
+        color: #04188b;
+    }
+
+    .botones button:hover {
+        background-color: #ce137a;
+        color: #000000;
+    }
+
+    .cuadro {
+        background-color: #e00d9a;
+        border: 7px solid #bd00d6;
+    }
+
+    .cuadro:hover {
+        background-color: #0c42d4;
+        color: #0ada14;
+    }
+
+    .header-botones {
+        background-color: #097be6;
+    }
+
+    .footer-botones button {
+        border: 7px solid #ade414;
+        background-color: #cc8d05;
+        color: #f30606;
+    }
+
+    .footer-botones button:hover {
+        background-color: #000000;
+        color: #e6d9d9;
+    }
+
+    .floating-button {
+        position: absolute;
+        bottom: 10px;
+        right: 10px; /* Ajuste para pantallas pequeñas */
+        background-color: #28a745;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .floating-button:hover {
+        background-color: #0c929e;
+        color: #780c9c;
+    }
+}

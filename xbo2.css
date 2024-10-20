@@ -1,0 +1,352 @@
+body {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff; 
+}
+
+.gift-fondo {
+    font-size: 70px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    ;
+}
+
+.gift-fondo iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.gift-fondo iframe:hover {
+    transform: translateY(-40px);
+    transform: scale(1.2);
+    background-color: #6111e1;
+}
+
+.video-containers {
+    background-image: url("https://wallpapers.com/images/hd/4k-gaming-consoles-3840-x-2115-wallpaper-d8nb8qe2f9rgmzzr.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #000; 
+}
+
+.left-section {
+    float: inline-start;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.header-title {
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.right-section {
+    display: flex;
+    gap: 15px; 
+}
+
+.right-section button {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-right: 0px;
+    padding: 54px 59px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s
+}
+
+.right-section button:hover {
+    transform: scale(1.2);
+    background-color: #d20bc4;
+}
+
+
+.footer-text h3, p {
+    color: #ffffff; 
+}
+
+.main-content {
+    display: flex;
+    padding: 10px;
+    padding-top: 0;
+    background-image: url("https://wallpapers.com/images/hd/xbox-series-x-halo-infinite-controller-wruor6ew6wy3w084.jpg");
+}
+
+.main-content table {
+    border-spacing: 20px; 
+}
+
+.videos { 
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+.videos iframe {
+    width: 100%;
+    height: 100%;
+    border: none; 
+}
+
+.videos iframe:hover {
+    transform: translateY(-40px);
+    transform: scale(1.2);
+    background-color: #000000;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding-left: 800px;
+}
+
+.izquierda .videos {
+    border-spacing: 20px; 
+    width: 400%;
+    height: 1550px;
+    margin-bottom: 20px;
+}
+
+.izquierda .videos iframe {
+    width: 100%; 
+    height: 100%;
+    border: none; 
+}
+
+.izquierda .videos iframe:hover {
+    transform: scale(1.2);
+    background-color: #c90b0b;
+}
+
+.derecha {
+    padding-left: 800px;
+}
+
+.derecha h2 {
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    margin: 0;
+    padding: 0;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.tablas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las tablas */
+}
+
+/* Estilo para las tablas */
+.juegos-tabla {
+    border-collapse: collapse;
+    width: 100%; /* Asegúrate de que las tablas ocupen el espacio disponible */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid rgb(232, 232, 7);
+}
+
+th {
+    background-color: #3da713;
+    font-size: 90px;
+}
+img{
+    
+    width: 1000px;
+    height: 600px;
+}
+
+/* Agregar un borde inferior a cada párrafo en las descripciones */
+.nombre-juego p {
+    border-bottom: 2px solid #dd0d0d; /* Cambia el color y el grosor si es necesario */
+    margin: 0; /* Elimina márgenes para un mejor alineamiento */
+    padding: 4px 0; /* Espacio alrededor del texto */
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+
+.botones-horizontales button {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-right: 0px;
+    padding: 54px 59px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s
+}
+
+.botones-horizontales button:hover {
+    transform: scale(1.2);
+    background-color: #bedd0e;
+}
+
+.boton-derecha {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px; 
+}
+
+.boton-derecha button {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    padding: 54px 59px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+.boton-derecha button:hover {
+    transform: scale(1.2);
+    background-color: #099d1f;
+}
+
+footer {
+    font-size: 70px;
+    background-color: #000000;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-botones button {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-right: 0px;
+    padding: 54px 59px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s
+}
+
+.footer-botones button:hover {
+    transform: scale(1.2);
+    background-color: #19aabe;
+}
+
+.cuadros div {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-right: 0px;
+    padding: 54px 59px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.4s, transform 0.4s
+}
+
+.cuadros div:hover {
+    transform: scale(1.2);
+    background-color: #2e1293;
+}
+
+.video-container {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/717/176/32/halo-halo-3-odst-odst-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}

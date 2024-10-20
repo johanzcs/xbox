@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+    body {
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 70px;
+        margin: 0;
+        padding: 0;
+        background-color: #000000; /* Fondo negro */
+        font-family: "Roboto Condensed", sans-serif;
+        color: #ffffff; 
+    }
+    
+    /* Estilos de la tabla */
+    .juegos-tabla {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    th, td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid rgb(232, 232, 7); /* Borde amarillo */
+        transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    }
+    
+    th {
+        background-color: #3da713; /* Verde */
+        font-size: 180px;
+        color: #ffffff; /* Texto blanco en el encabezado */
+    }
+    
+    th:hover {
+        background-color: #3b8b4b; /* Verde más oscuro al pasar el mouse */
+    }
+    
+    td {
+        background-color: #1a1a1a; /* Fondo de celdas oscuro */
+    }
+    
+    td:hover {
+        background-color: #2a2a2a; /* Fondo más claro al pasar el mouse */
+    }
+    
+    /* Efectos de hover para los botones */
+    .right-section button,
+    .botones-horizontales button,
+    .footer-botones button,
+    .cuadros div {
+        margin-left: 20px;
+        margin-bottom: 60px;
+        margin-top: 100px;
+        padding: 54px 59px;
+        font-size: 70px;
+        cursor: pointer;
+        border: 5px solid #ffffff;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 30px;
+        transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s; /* Añadido box-shadow */
+    }
+    
+    .right-section button:hover,
+    .botones-horizontales button:hover,
+    .footer-botones button:hover,
+    .cuadros div:hover {
+        transform: scale(1.1); /* Ligeramente más grande */
+        background-color: #3da713; /* Cambia a verde */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra alrededor del botón */
+    }
+    
+    /* Agregar un borde inferior a cada párrafo en las descripciones */
+    .nombre-juego p {
+        border-bottom: 2px solid #dd0d0d; /* Rojo */
+        margin: 0; 
+        padding: 4px 0;
+        font-size: 90px;
+        color: #ffffff;
+        font-weight: bold;
+        margin-left: 60px;
+        transition: color 0.3s; /* Transición para el color del texto */
+    }
+    
+    .nombre-juego p:hover {
+        color: #dd0d0d; /* Rojo al pasar el mouse */
+    }
+}
