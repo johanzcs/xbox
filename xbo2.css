@@ -203,13 +203,13 @@ body {
 .tablas-contenedor {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Espacio entre las tablas */
+    gap: 20px; 
 }
 
 /* Estilo para las tablas */
 .juegos-tabla {
     border-collapse: collapse;
-    width: 100%; /* Asegúrate de que las tablas ocupen el espacio disponible */
+    width: 100%; 
 }
 
 th, td {
@@ -228,11 +228,10 @@ img{
     height: 600px;
 }
 
-/* Agregar un borde inferior a cada párrafo en las descripciones */
 .nombre-juego p {
-    border-bottom: 2px solid #dd0d0d; /* Cambia el color y el grosor si es necesario */
-    margin: 0; /* Elimina márgenes para un mejor alineamiento */
-    padding: 4px 0; /* Espacio alrededor del texto */
+    border-bottom: 2px solid #dd0d0d;
+    margin: 0; 
+    padding: 4px 0; 
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
