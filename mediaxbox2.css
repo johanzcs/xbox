@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 2900px) {
     body {
         font-optical-sizing: auto;
         font-weight: 400;
@@ -6,9 +6,9 @@
         font-size: 70px;
         margin: 0;
         padding: 0;
-        background-color: #000000;
+        background-color: #18b00d;
         font-family: "Roboto Condensed", sans-serif;
-        color: #ffffff; 
+        color: #148392; 
     }
     
     .juegos-tabla {
@@ -19,26 +19,26 @@
     th, td {
         text-align: left;
         padding: 8px;
-        border: 1px solid rgb(232, 232, 7); 
+        border: 1px solid rgb(166, 20, 233); 
         transition: background-color 0.3s, color 0.3s; 
     }
     
     th {
-        background-color: #3da713; 
+        background-color: #a71384; 
         font-size: 180px;
-        color: #ffffff; 
+        color: #f81212; 
     }
     
     th:hover {
-        background-color: #3b8b4b; 
+        background-color: #cff015; 
     }
     
     td {
-        background-color: #1a1a1a; 
+        background-color: #3bc00b; 
     }
     
     td:hover {
-        background-color: #2a2a2a; 
+        background-color: #137ea1; 
     }
     
     .right-section button,
@@ -51,9 +51,9 @@
         padding: 54px 59px;
         font-size: 70px;
         cursor: pointer;
-        border: 5px solid #ffffff;
-        background-color: #000000;
-        color: #ffffff;
+        border: 5px solid #10087a;
+        background-color: #a50eb6;
+        color: #cc0a44;
         border-radius: 30px;
         transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s; 
     }
@@ -63,22 +63,22 @@
     .footer-botones button:hover,
     .cuadros div:hover {
         transform: scale(1.1); 
-        background-color: #3da713; 
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+        background-color: #a75313; 
+        box-shadow: 0 4px 20px rgba(149, 211, 5, 0.5); 
     }
     
     .nombre-juego p {
-        border-bottom: 2px solid #dd0d0d; 
+        border-bottom: 2px solid #0ddd48; 
         margin: 0; 
         padding: 4px 0;
         font-size: 90px;
-        color: #ffffff;
+        color: #1b088a;
         font-weight: bold;
         margin-left: 60px;
         transition: color 0.3s; 
     }
     
     .nombre-juego p:hover {
-        color: #dd0d0d;
+        color: #880a86;
     }
 }
