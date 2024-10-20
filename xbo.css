@@ -339,7 +339,7 @@ footer:hover {
 .floating-button {
     position: absolute;
     bottom: 15px; 
-    right: 700px;
+    right: 300px;
     background-color: #28a745;
     color: rgb(0, 0, 0);
     padding: 11px 21px;
