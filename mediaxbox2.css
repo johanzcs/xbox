@@ -6,12 +6,11 @@
         font-size: 70px;
         margin: 0;
         padding: 0;
-        background-color: #000000; /* Fondo negro */
+        background-color: #000000;
         font-family: "Roboto Condensed", sans-serif;
         color: #ffffff; 
     }
     
-    /* Estilos de la tabla */
     .juegos-tabla {
         border-collapse: collapse;
         width: 100%;
@@ -20,29 +19,28 @@
     th, td {
         text-align: left;
         padding: 8px;
-        border: 1px solid rgb(232, 232, 7); /* Borde amarillo */
-        transition: background-color 0.3s, color 0.3s; /* Transición suave */
+        border: 1px solid rgb(232, 232, 7); 
+        transition: background-color 0.3s, color 0.3s; 
     }
     
     th {
-        background-color: #3da713; /* Verde */
+        background-color: #3da713; 
         font-size: 180px;
-        color: #ffffff; /* Texto blanco en el encabezado */
+        color: #ffffff; 
     }
     
     th:hover {
-        background-color: #3b8b4b; /* Verde más oscuro al pasar el mouse */
+        background-color: #3b8b4b; 
     }
     
     td {
-        background-color: #1a1a1a; /* Fondo de celdas oscuro */
+        background-color: #1a1a1a; 
     }
     
     td:hover {
-        background-color: #2a2a2a; /* Fondo más claro al pasar el mouse */
+        background-color: #2a2a2a; 
     }
     
-    /* Efectos de hover para los botones */
     .right-section button,
     .botones-horizontales button,
     .footer-botones button,
@@ -57,31 +55,30 @@
         background-color: #000000;
         color: #ffffff;
         border-radius: 30px;
-        transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s; /* Añadido box-shadow */
+        transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s; 
     }
     
     .right-section button:hover,
     .botones-horizontales button:hover,
     .footer-botones button:hover,
     .cuadros div:hover {
-        transform: scale(1.1); /* Ligeramente más grande */
-        background-color: #3da713; /* Cambia a verde */
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra alrededor del botón */
+        transform: scale(1.1); 
+        background-color: #3da713; 
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
     }
     
-    /* Agregar un borde inferior a cada párrafo en las descripciones */
     .nombre-juego p {
-        border-bottom: 2px solid #dd0d0d; /* Rojo */
+        border-bottom: 2px solid #dd0d0d; 
         margin: 0; 
         padding: 4px 0;
         font-size: 90px;
         color: #ffffff;
         font-weight: bold;
         margin-left: 60px;
-        transition: color 0.3s; /* Transición para el color del texto */
+        transition: color 0.3s; 
     }
     
     .nombre-juego p:hover {
-        color: #dd0d0d; /* Rojo al pasar el mouse */
+        color: #dd0d0d;
     }
 }
